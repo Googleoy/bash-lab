@@ -1,3 +1,0 @@
-Administrator:/var/roots:/bin/sh
-Services:/var/roots:/usr/bin/false
-Root:/var/empty:/usr/bin/false
