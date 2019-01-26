@@ -1,0 +1,14 @@
+Create a Maven project based on run time parameters:
+	Create a new Project
+	Select the “This project is parameterize”
+	Click on Add Parameter
+	Click on Choice Parameter
+		Name
+			name
+		Choices
+			X
+			Y
+			Z
+	Click on Execute Shell:
+		echo “I am $name”
+

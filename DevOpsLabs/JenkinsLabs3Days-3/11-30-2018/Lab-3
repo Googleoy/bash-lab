@@ -1,0 +1,10 @@
+Create an encrypted Git Password via Snippet Generator:
+
+Sample Step: git: Git
+	Repo URL: <git-url>
+	Branch: master or <any-branch>
+	Credentials: xavy or <as-per-requirement>
+	Click on “Generate Pipeline Script”
+O/P:
+	git credentialsId: 'f285b507-31d6-4519-964a-3cac3b23370b', url: 'git@github.com:xavyaly/test-python-script.git'
+

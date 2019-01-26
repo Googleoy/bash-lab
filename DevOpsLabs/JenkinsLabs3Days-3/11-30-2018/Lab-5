@@ -1,0 +1,6 @@
+// Create a snipper generator to pass the Environment Variable 
+
+withEnv(['a=2']) {
+    // some block
+}
+

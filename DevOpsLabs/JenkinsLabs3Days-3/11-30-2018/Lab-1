@@ -1,0 +1,8 @@
+Benefits of Jenkins Pipeline Job:
+	Pipeline basically needs a basic understanding of groovy language
+	No need to install multiple plugins for execution 
+	In normal Jobs error tracing will be a challenging part
+	In Pipeline we split the code which helps us to trace error easily
+	In Pipeline we break the execution process into Stages
+	In Pipeline maintaining of code is quite easy
+

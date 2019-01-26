@@ -1,0 +1,77 @@
+Jenkins:
+
+Jenkins wiki
+https://en.wikipedia.org/wiki/Jenkins_(software)
+
+Formal Introduction of CI, CD, CD
+CI => Continuous Integration: is usually the initial part of both Continuous Delivery and Deployment, involving the testing and building of any new or updated source code
+CD => Continuos Delivery: involves a manual trigger to Production
+CD => Continuos Deployment:: involves a automatic releases to Production
+
+Jenkins Advantages:
+It is an open source and completely free
+Issues with tests and build are detected easily and reported almost immediately
+Jenkins is a Platform independent, available on windows, MacOs and Linus
+It is easily configurable and customisable for any project
+
+Pre-Requisites of Jenkins:
+
+Install Java: https://www.oracle.com/technetwork/java/javase/downloads/index.html
+# set the Java Path like $ export JAVA_HOME
+$ export JAVA_HOME=/usr/local/java-current		# execute 
+$ echo JAVA_HOME	# /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+$ java -version		# tell u the java version, java version "1.8.0_144"
+
+Install Maven:
+Download maven=> https://maven.apache.org/download.cgi
+# Click on apache-maven-3.6.0-bin.tar.gz			// To Download
+# tar xzvf apache-maven-3.6.0-bin.tar.gz			// Extract the file
+# mv apache-maven-3.6.0 /opt/
+# rm apache-maven-3.6.0-bin.tar.gz				// remove the tar file
+# echo $JAVA_HOME	# /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home // cross verify
+# export PATH=/opt/apache-maven-3.6.0/bin:$PATH	 	// Adding Maven Path
+# mvn -v OR mvn -version	# Apache Maven 3.6.0
+# Whereis mvn	# Path where Maven Installed
+# https://maven.apache.org/install.html		# For path setup helps
+
+Troubleshoot Part:
+$ nano ~/.bash_profile		# Edit the file
+$ source ~/.bash_profile	# execute it to affect the changes in env file
+
+Install Git:
+# Install Git and Configure
+
+Install the Jenkins: https://jenkins.io/ => Click on Download => Download the Jenkins as per specific OS
+$ cd <pwd-of-jenkins>		# Place where you have downloaded the Jenkins
+$ java -jar jenkins.war		# Start the Jenkins
+# CREATE A “.jenkins”		# jenkins database, never delete unless you want completely uninstall the jenkins
+$ rm -rf .jenkins			# Make Sure, Cross Check because it will completely remove the Jenkins from your System
+# http://localhost:8080	# Hit in Browser to access the Jenkins
+$ cat /Users/<id>/.jenkins/secrets/initialAdminPassword	 	# Copy the Password
+# Click on Continue
+# Click on Installaed Suggested Plugin
+# Automatically 20 Default Plugins will be installed		# wait for 10 mins
+	# Folders
+	# OWASP Markup Formatter
+	# Ant
+	# Git
+	# Pipelines
+	…
+# Create first Admin User:
+	Username			# Mandatory
+	password			# Mandatory
+	confirm passwd
+	Full name
+	Email Add:
+# Click on Save And Finish
+# Start using jenkins
+
+# Jenkins Installation For a Demo Purpose:
+https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04
+
+# Jenkins Restart:
+# http://localhost:8080/restart => Prompt => Click on Yes
+$ sudo service Jenkins restart		# CLI
+
+
+

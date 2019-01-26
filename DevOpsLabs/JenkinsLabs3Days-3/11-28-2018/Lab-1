@@ -1,0 +1,35 @@
+How to Fork ?
+	Click on Fork
+	# git clone <ssh-url>
+	# git add .
+	# git commit -m “<any-message>”
+	# git push 		// Error, Need to Fork first then do the cloning
+Importance of Fork ?	// Done
+
+Clone a new Project game-of-life 	// Done
+Explanation of target folder			// Done
+Explanation of “.jar” file in Java Project 	// https://en.wikipedia.org/wiki/JAR_(file_format), Done
+Manual Execution of Maven Project 		// Done
+	pom.xml
+	https://www.tutorialspoint.com/maven/maven_pom.htm	// read about maven and pom.xml
+Target folder should be created automatically		// Done
+Create a Maven Job in Jenkins 		// Done
+Add the GitHub URLs				// Done
+Add the Maven Operations like compile, test, package etc..		// Done
+Manual Build to Jenkins Job	// Done
+Play with some errors 			// Done
+Troubleshoot the Jenkins Job via console and CLI Logs 		// Done
+Learn to trace the Errors in Jenkins Jobs		// Done
+Automatic Execution of Jenkins Jobs:		
+	Build Triggered
+	Poll SCM
+	Web Hook
+
+Python execution:
+	# nano test.py		// echo “Hello world”
+	# chmod +x test.py	// execution permission to any script
+	# ./test.py			// execute it
+	# python test.py		// execute it
+	
+Do some R nd D.
+	File to archive: 	// archive in Jenkins

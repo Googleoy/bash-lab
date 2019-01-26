@@ -1,0 +1,4 @@
+// Add a line at the top of script to clean the WorkSpace before Job Execution
+
+cleanWs()
+

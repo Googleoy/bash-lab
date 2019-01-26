@@ -1,0 +1,58 @@
+$: user
+#: root
+//: Comment
+
+Kind of Jenkins Jobs:
+	Manual Jobs			// Manaul triggered 
+	Self Service Jobs		// 
+	Automatic Jobs		// cron jobs
+	Nightly Build Jobs		// Execute it at the night
+	Pipeline Jobs			// Based on Groovy Scripts Jobs
+
+Naming Convention								// <x>-<y>-<z>-<r>
+Sample Jobs in Jenkins							// Done
+Wipe Out Current Workspace						// clean  
+Create a new Job from an existing Job				// Done
+Create a folder and segregate the jobs				// Done
+Manual Triggered the Jenkins Build					// Done
+Create a global credentials to utilise from any where	// Done
+	Click on Credentials
+	Click on Jenkins
+	Click on “Global Credentials”
+	Click on Add Credentials
+	Select the SSH Username and Private Key
+	Create a SSH-KEYGEN Key: https://www.ssh.com/ssh/keygen/
+	$ cat ~/.ssh/id_rsa	// copy it 
+	Paste under Private Key
+	Login to GitHub:
+	Go to Setting
+	Click on SSH and GPG Keys
+	Click on New SSH Key
+	$ cat ~/.ssh/id_rsa.pub 	// copy it
+	Give an name in Title and Paste it under the “Key”
+	Click on Add SSH Key
+Where exactly Jenkins keep the build file ?			// cd ~/.jenkins/	
+Default Path of Jenkins							// /var/lib/jenkins
+Always perform all operation in Jenkins 				// By jenkins users, sudo su jenkins
+Install the Plugins in Jenkins						// Manage Jenkins, Done
+Uninstall the Plugins in Jenkins						// Done
+Important Plugins:	// Done
+	GitHub
+	Version Number
+	Nexus Plugins
+	Green Balls
+	Maven Integration
+	DigitalOcean
+	so on…
+Installl the Plugins without restart		// Done
+Overview of DownStream and UpStream of Jenkins Jobs
+Introduction of Manage Jenkins			// Done
+How to manage the Matrix Permissions in Jenkins ?	// Done
+How we can give to specific DL or Person ?		// Done
+Overview of Jenkins workspace 			// Done
+Process to clean the Jenkins workspace and why it requires ?	// Done
+Troubleshoot the Jenkins Job via console and CLI Logs ?	
+How to trace the Errors in Jenkins Jobs ?
+How to do Build Triggered Jobs Automatically
+How we can add Git URLs ?
+How we can achieve the Poll SCM concept in Jenkins and why we need it ?
