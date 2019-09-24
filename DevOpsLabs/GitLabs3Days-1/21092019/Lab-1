@@ -1,0 +1,39 @@
+Git Book:
+https://git-scm.com/book/en/v2
+
+Git Installation:
+https://www.atlassian.com/git/tutorials/install-git
+https://git-scm.com/downloads
+https://github.com/xavyaly/Git
+
+Create an account in Git:
+https://github.com/
+
+Migration of SVN from GIT ?
+https://www.atlassian.com/git/tutorials/migrating-overview
+
+GIT VS GITHUB:
+Git is the tool, GitHub is the service for projects that use Git.
+
+Git Repository:
+A file location where you can store all the files related to your project.
+When you Git commit your code, a version/snapshot is created in your local repo.
+Remote repository: A remote repository generally lies somewhere outside your system, on a remote machine.
+
+Branches:
+A branch in Git is simply a lightweight movable pointer to one of these commits.
+The default branch in GIT is master.
+As you initially make commits, you’re given a master branch that points to the last commit you made.
+Multiple branches pointing into the commit’s data history.
+
+Features:
+Git feature branch workflow is branching model focused, meaning that it is a guiding framework for managing and creating branches,
+Th Git flow, and Git Forking workflows use a Git feature branch workflow in regards to their branching models
+
+Local Repository:
+
+Remote Repository:
+
+Note:
+Pull the recent changes from Remote repository.
+Push the latest changes to Remote repository.
