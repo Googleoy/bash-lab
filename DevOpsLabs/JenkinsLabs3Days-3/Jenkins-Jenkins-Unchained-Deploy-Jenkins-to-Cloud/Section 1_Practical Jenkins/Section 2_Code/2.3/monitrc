@@ -1,3 +1,0 @@
-set mailserver smtp.gmail.com port 587
-    username "EMAIL" password "PASSWORD"
-    using tlsv12

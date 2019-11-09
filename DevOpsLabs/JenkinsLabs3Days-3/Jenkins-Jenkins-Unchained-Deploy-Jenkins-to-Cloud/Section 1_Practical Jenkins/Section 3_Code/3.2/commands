@@ -1,5 +1,0 @@
-#Slave jar location
-wget http://192.168.33.215/jnlpJars/agent.jar
-
-#SLave launch command
-ssh -o StrictHostKeyChecking=no -i /opt/.jenkins/jenkins_slave jenkins@192.168.33.213 java -jar /opt/agent.jar

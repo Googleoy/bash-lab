@@ -1,1 +1,0 @@
-java -jar jenkins.war
