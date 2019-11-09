@@ -5,5 +5,5 @@
 git status
 git add .
 git status
-git commit -m "ShellScripting-Day-2"
+git commit -m "ShellScripting-Day-3"
 git push origin master
