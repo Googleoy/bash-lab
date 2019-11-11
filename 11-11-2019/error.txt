@@ -1,0 +1,2 @@
+./Lab-1.sh: line 11: unexpected EOF while looking for matching `"'
+./Lab-1.sh: line 16: syntax error: unexpected end of file
